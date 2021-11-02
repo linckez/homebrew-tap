@@ -2,12 +2,12 @@ class Sqlcl < Formula
   desc "Oracle SQLcl, Oracle SQL Developer Command Line (SQLcl) is a free command line interface for Oracle Database. It allows you to interactively or batch execute SQL and PL/SQL. SQLcl provides in-line editing, statement completion, and command recall for a feature-rich experience, all while also supporting your previously written SQL*Plus scripts."
   homepage "https://www.oracle.com/database/technologies/appdev/sqlcl.html"
   url "https://download.oracle.com/otn_software/java/sqldeveloper/sqlcl-latest.zip"
-  sha256 "03774d2725d5649411e36cd23b055c5b935dd17054964934d6d2a054c029018b"
+  sha256 "96f6b2bacd8811b07f2aa88ef622111a91982914ff87ba19676ffbf66b87dc17"
   version "21.3.1.281.1748"
 
   resource "sqlcl" do
     url "https://download.oracle.com/otn_software/java/sqldeveloper/sqlcl-latest.zip"
-    sha256 "03774d2725d5649411e36cd23b055c5b935dd17054964934d6d2a054c029018b"
+    sha256 "96f6b2bacd8811b07f2aa88ef622111a91982914ff87ba19676ffbf66b87dc17"
   end
 
   bottle :unneeded
